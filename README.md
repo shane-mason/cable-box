@@ -3,6 +3,9 @@
 
 The models were used to make a 3-d printed cable box replica to house a Raspberry Pi 5 for a cable simulation built using FieldStation42.
 
+
+![A screenshot cable box model](docs/model0.png?raw=true)
+
 To use the models, clone the repository and print both sets:
 
 ```
