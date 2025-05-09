@@ -48,4 +48,16 @@ Fit black trim piece over the display area.
 
 ### Step 5 Wire It Up!
 
+| Raspberry PI  |LED Display    |
+| ------------- | ------------- |
+|A 5v |VCC |
+|GND  |GND |
+|GPIO 17  |CLK |
+|GPIO 16  | DIO |
+
+
+
 Additional documentation with images is in-progress.
+
+
+
