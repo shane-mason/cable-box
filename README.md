@@ -17,6 +17,7 @@ CableBox-bottom.stl - Conains the bottom of the box.
 * [3x4 Matrix Keypad](https://www.adafruit.com/product/3845)
 * [4 Digit 7 Segment TM1637 LED Display Board](https://www.amazon.com/dp/B0BFQNFX6D)
 * [Raspberry Pi 5 - with active cooler](https://www.adafruit.com/product/5815)
+* [F2F Jumper Wires](https://www.adafruit.com/product/1950)
 * HDMI Extender (pigtail)
 
 
