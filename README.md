@@ -52,10 +52,20 @@ Fit black trim piece over the display area.
 | ------------- | ------------- |
 |A 5v |VCC |
 |GND  |GND |
-|GPIO 17  |CLK |
-|GPIO 16  | DIO |
+|GPIO17  |CLK |
+|GPIO16  | DIO |
 
+| Raspberry PI  |Keypad         |
+| ------------- | ------------- |
+|GPIO20|C2|
+|GPIO05|R1|
+|GPIO26|C1|
+|GPIO19|R4|
+|GPIO21|C3|
+|GPIO13|R3|
+|GPIO06|R2|
 
+![A connection diagram](docs/cable-box-fritzing.png?raw=true)
 
 Additional documentation with images is in-progress.
 
