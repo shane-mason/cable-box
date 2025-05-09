@@ -42,11 +42,15 @@ The keypad mounts using M2 screws and nuts in the corners of the cutout on the t
 ### Step 4 - Mount the LED Display
 The display mounts in the cutout in the front of the box using superglue. The fit should be fairly tight, but it also works as long as it is glued to one of the two sides. There is room for improvement in this part of the design for sure.
 
-Optional: cut plexiglass to <INSERT SIZE> and fit in front of the display.
+Optional: cut plexiglass to SIZE and fit in front of the display.
 
 Fit black trim piece over the display area.
 
 ### Step 5 Wire It Up!
+
+#### TM1637 LED Display Board
+
+The following table shows the connections betwen the Rasberry Pi 5 and the TM1637 LED Display Board.
 
 | Raspberry PI  |LED Display    |
 | ------------- | ------------- |
@@ -54,6 +58,10 @@ Fit black trim piece over the display area.
 |GND  |GND |
 |GPIO17  |CLK |
 |GPIO16  | DIO |
+
+#### 3x4 Matrix Keypad
+
+The following table shows the connections between the Raspberry Pi 5 and the 3x4 Matrix Keypad. For more information on the pinouts for this keypad and the Raspberry Pi 5, see [this Adafruit Learning Guide](https://learn.adafruit.com/matrix-keypad/overview).
 
 | Raspberry PI  |Keypad         |
 | ------------- | ------------- |
@@ -64,6 +72,10 @@ Fit black trim piece over the display area.
 |GPIO21|C3|
 |GPIO13|R3|
 |GPIO06|R2|
+
+#### Fritzing Diagram
+
+The following diagram shows an overview of the connections.
 
 ![A connection diagram](docs/cable-box-fritzing.png?raw=true)
 
