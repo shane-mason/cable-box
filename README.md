@@ -18,7 +18,7 @@ CableBox-bottom.stl - Conains the bottom of the box.
 * [4 Digit 7 Segment TM1637 LED Display Board](https://www.amazon.com/dp/B0BFQNFX6D)
 * [Raspberry Pi 5 - with active cooler](https://www.adafruit.com/product/5815)
 * [F2F Jumper Wires](https://www.adafruit.com/product/1950)
-* 12" HDMI Extender (pigtail)
+* 6"+ Micro HDMI to HDMI Adapter (pigtail)
 * Plexiglass (1/8th inch)
 * 4 M2.5 screws and nuts
 * 4 M2 screws and nuts
@@ -31,7 +31,7 @@ Print both models above. I used PLA with a .4 mm nozel on a textured plate - but
 
 ### Step 2 - Mounting the Pi
 The printed model contains mounts for the raspberry pi 5 on the top of the box. There are cutouts in each mounting post for an M2.5 nut to fit into - secure it with superglue.
-
+        
 After the superglue is dried, just use M2.5 screws to secure it to the post.
 
 Its important to use a pi with an active cooler - otherwise it will likely heat up and throttle perfomance. 
@@ -47,6 +47,9 @@ Optional: cut plexiglass to SIZE and fit in front of the display.
 Fit black trim piece over the display area.
 
 ### Step 5 Wire It Up!
+In this step, you'll connect all the wires. Your setup should look like the picture below at the end of this step:
+
+![A cable box on a table with wired connecting components](docs/.png?wired-box.pngraw=true)
 
 #### TM1637 LED Display Board
 
@@ -81,5 +84,6 @@ The following diagram shows an overview of the connections.
 
 Additional documentation with images is in-progress.
 
+### Connect Power & HDMI
 
 
