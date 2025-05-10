@@ -24,7 +24,7 @@ CableBox-bottom.stl - Conains the bottom of the box.
 * 4 M2 screws and nuts
 * Superglue
 
-## Process
+## Building the Box
 The put it all together, follow the steps below. At the finish, you should have a box that looks like this:
 ![A cable box on a table with wired connecting components](docs/cable_cover_3.png?wired-box.pngraw=true)
 
@@ -94,5 +94,19 @@ In this step, just connect the micro-HDMI to HDMI pigtail to the Pi's micro-HDMI
 
 ### Step 6: Secure Bottom
 Use the foot screws in the first print to secure the bottom piece from the second print.
+
+## Setting Up the Software
+
+To use the cable box script, you will need to install the python driver for the LED display.
+
+```
+# Uses adafruit circuitpython via Blink - install blinka first: 
+# https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi
+# pip3 install adafruit-circuitpython-matrixkeypad
+
+#also requires tm1673 library:
+# pip3 install raspberrypi-tm1637
+```
+
 
 Note: Documentation still in progress.
