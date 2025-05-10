@@ -86,4 +86,9 @@ Additional documentation with images is in-progress.
 
 ### Connect Power & HDMI
 
+In this step, just connect the micro-HDMI to HDMI pigtail to the Pi's micro-HDMI output and the power cable to the Pi's USB C connector and run them through the openings on the side closest to the connectors. You will probably want to use use something to prevent the cables from being pulled, so I use some thick copper wire. A think ziptie or some tape wil work also. When this step is completed, it should look like the picture below.
+
+![Cable box with wires](docs/cable_plugs.png?raw=true)
+
+
 
