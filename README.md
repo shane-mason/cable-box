@@ -97,8 +97,7 @@ Use the foot screws in the first print to secure the bottom piece from the secon
 
 ## Setting Up the Software
 
-
-To use the cable box script, you will need to install the python drivers for the LED display and matrix keypad.
+To use the cable box script, you will need to install the python drivers for the LED display and matrix keypad. The script is located in the FieldStation42 repo at `fs42/pi/cable_box.py` ([link](https://github.com/shane-mason/FieldStation42/blob/main/fs42/pi/cable_box.py)).
 
 ### Install Keypad Drivers
 
@@ -120,4 +119,8 @@ Use pip to install tm1637 LED drivers
 source env/bin/activate
 pip3 install raspberrypi-tm1637
 ```
+
+### Starting the Script on Startup
+
+For ideas about how to use this at startup, see [this wiki page](https://github.com/shane-mason/FieldStation42/wiki/Autostart-on-Rasberry-Pi).
 
