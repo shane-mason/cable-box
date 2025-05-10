@@ -102,7 +102,7 @@ To use the cable box script, you will need to install the python drivers for the
 ### Install Keypad Drivers
 
 For the matrix keypad, you you first need to install Adafruit Blinka libraries. 
-- [Follow this guide to install CircuitPython via Blinka](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi_
+- [Follow this guide to install CircuitPython via Blinka](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi)
 
 Next, install the matrix keypad driver using pip3 (after you activate your virtual env)
 
