@@ -95,3 +95,4 @@ In this step, just connect the micro-HDMI to HDMI pigtail to the Pi's micro-HDMI
 ### Step 6: Secure Bottom
 Use the foot screws in the first print to secure the bottom piece from the second print.
 
+Note: Documentation still in progress.
