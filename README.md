@@ -97,16 +97,27 @@ Use the foot screws in the first print to secure the bottom piece from the secon
 
 ## Setting Up the Software
 
-To use the cable box script, you will need to install the python driver for the LED display.
+
+To use the cable box script, you will need to install the python drivers for the LED display and matrix keypad.
+
+### Install Keypad Drivers
+
+For the matrix keypad, you you first need to install Adafruit Blinka libraries. 
+- [Follow this guide to install CircuitPython via Blinka](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi_
+
+Next, install the matrix keypad driver using pip3 (after you activate your virtual env)
 
 ```
-# Uses adafruit circuitpython via Blink - install blinka first: 
-# https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi
-# pip3 install adafruit-circuitpython-matrixkeypad
-
-#also requires tm1673 library:
-# pip3 install raspberrypi-tm1637
+source env/bin/activate
+pip3 install adafruit-circuitpython-matrixkeypad
 ```
 
+### Install LED Drivers
 
-Note: Documentation still in progress.
+Use pip to install tm1637 LED drivers
+
+```
+source env/bin/activate
+pip3 install raspberrypi-tm1637
+```
+
