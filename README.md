@@ -25,6 +25,8 @@ CableBox-bottom.stl - Conains the bottom of the box.
 * Superglue
 
 ## Process
+The put it all together, follow the steps below. At the finish, you should have a box that looks like this:
+![A cable box on a table with wired connecting components](docs/cable_cover_3.png?wired-box.pngraw=true)
 
 ### Step 1 - Printing
 Print both models above. I used PLA with a .4 mm nozel on a textured plate - but ABS should work.
@@ -49,7 +51,7 @@ Fit black trim piece over the display area.
 ### Step 5 Wire It Up!
 In this step, you'll connect all the wires. Your setup should look like the picture below at the end of this step:
 
-![A cable box on a table with wired connecting components](docs/.png?wired-box.pngraw=true)
+![A cable box on a table with wired connecting components](docs/wired-box.png?wired-box.pngraw=true)
 
 #### TM1637 LED Display Board
 
@@ -84,11 +86,12 @@ The following diagram shows an overview of the connections.
 
 Additional documentation with images is in-progress.
 
-### Connect Power & HDMI
+### Step 5: Connect Power & HDMI
 
 In this step, just connect the micro-HDMI to HDMI pigtail to the Pi's micro-HDMI output and the power cable to the Pi's USB C connector and run them through the openings on the side closest to the connectors. You will probably want to use use something to prevent the cables from being pulled, so I use some thick copper wire. A think ziptie or some tape wil work also. When this step is completed, it should look like the picture below.
 
 ![Cable box with wires](docs/cable_plugs.png?raw=true)
 
-
+### Step 6: Secure Bottom
+Use the foot screws in the first print to secure the bottom piece from the second print.
 
