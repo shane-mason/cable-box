@@ -18,7 +18,7 @@ CableBox-bottom.stl - Conains the bottom of the box.
 * [4 Digit 7 Segment TM1637 LED Display Board](https://www.amazon.com/dp/B0BFQNFX6D)
 * [Raspberry Pi 5 - with active cooler](https://www.adafruit.com/product/5815)
 * [F2F Jumper Wires](https://www.adafruit.com/product/1950)
-* 12" HDMI Extender (pigtail)
+* 6"+ Micro HDMI to HDMI Adapter (pigtail)
 * Plexiglass (1/8th inch)
 * 4 M2.5 screws and nuts
 * 4 M2 screws and nuts
@@ -31,7 +31,7 @@ Print both models above. I used PLA with a .4 mm nozel on a textured plate - but
 
 ### Step 2 - Mounting the Pi
 The printed model contains mounts for the raspberry pi 5 on the top of the box. There are cutouts in each mounting post for an M2.5 nut to fit into - secure it with superglue.
-
+        
 After the superglue is dried, just use M2.5 screws to secure it to the post.
 
 Its important to use a pi with an active cooler - otherwise it will likely heat up and throttle perfomance. 
@@ -42,22 +42,48 @@ The keypad mounts using M2 screws and nuts in the corners of the cutout on the t
 ### Step 4 - Mount the LED Display
 The display mounts in the cutout in the front of the box using superglue. The fit should be fairly tight, but it also works as long as it is glued to one of the two sides. There is room for improvement in this part of the design for sure.
 
-Optional: cut plexiglass to <INSERT SIZE> and fit in front of the display.
+Optional: cut plexiglass to SIZE and fit in front of the display.
 
 Fit black trim piece over the display area.
 
 ### Step 5 Wire It Up!
+In this step, you'll connect all the wires. Your setup should look like the picture below at the end of this step:
+
+![A cable box on a table with wired connecting components](docs/.png?wired-box.pngraw=true)
+
+#### TM1637 LED Display Board
+
+The following table shows the connections betwen the Rasberry Pi 5 and the TM1637 LED Display Board.
 
 | Raspberry PI  |LED Display    |
 | ------------- | ------------- |
 |A 5v |VCC |
 |GND  |GND |
-|GPIO 17  |CLK |
-|GPIO 16  | DIO |
+|GPIO17  |CLK |
+|GPIO16  | DIO |
 
+#### 3x4 Matrix Keypad
 
+The following table shows the connections between the Raspberry Pi 5 and the 3x4 Matrix Keypad. For more information on the pinouts for this keypad and the Raspberry Pi 5, see [this Adafruit Learning Guide](https://learn.adafruit.com/matrix-keypad/overview).
+
+| Raspberry PI  |Keypad         |
+| ------------- | ------------- |
+|GPIO20|C2|
+|GPIO05|R1|
+|GPIO26|C1|
+|GPIO19|R4|
+|GPIO21|C3|
+|GPIO13|R3|
+|GPIO06|R2|
+
+#### Fritzing Diagram
+
+The following diagram shows an overview of the connections.
+
+![A connection diagram](docs/cable-box-fritzing.png?raw=true)
 
 Additional documentation with images is in-progress.
 
+### Connect Power & HDMI
 
 
