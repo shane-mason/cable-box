@@ -55,7 +55,7 @@ In this step, you'll connect all the wires. Your setup should look like the pict
 
 #### TM1637 LED Display Board
 
-The following table shows the connections betwen the Rasberry Pi 5 and the TM1637 LED Display Board.
+The following table shows the connections between the Rasberry Pi 5 and the TM1637 LED Display Board.
 
 | Raspberry PI  |LED Display    |
 | ------------- | ------------- |
