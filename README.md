@@ -62,7 +62,7 @@ The following table shows the connections betwen the Rasberry Pi 5 and the TM163
 |A 5v |VCC |
 |GND  |GND |
 |GPIO17  |CLK |
-|GPIO16  | DIO |
+|GPIO18  | DIO |
 
 #### 3x4 Matrix Keypad
 
