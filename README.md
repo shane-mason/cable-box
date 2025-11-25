@@ -120,6 +120,18 @@ source env/bin/activate
 pip3 install raspberrypi-tm1637
 ```
 
+### 
+
+If you get an error along the lines of:
+```
+RuntimeError: Cannot determine SOC peripheral base address
+```
+Run the following:
+
+```
+sudo apt remove python3-rpi.gpio
+pip3 install rpi-lgpio
+```
 ### Starting the Script on Startup
 
 For ideas about how to use this at startup, see [this wiki page](https://github.com/shane-mason/FieldStation42/wiki/Autostart-on-Rasberry-Pi).
