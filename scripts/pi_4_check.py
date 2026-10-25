@@ -2,10 +2,12 @@
 Keypad & 7-segment display tester - Raspberry Pi 4 version.
 
 Wiring (see keypad-display-wiring.md):
-  Display:  CLK = GPIO4, DIO = GPIO3, VCC = 3.3V, GND = GND
+  Display:  CLK = GPIO11, DIO = GPIO9, VCC = 3.3V, GND = GND
   Keypad:   R1 = GPIO6,  R2 = GPIO20, R3 = GPIO16, R4 = GPIO19
             C1 = GPIO13, C2 = GPIO5,  C3 = GPIO26
   LED:      GPIO21 (optional, through a 330 ohm resistor)
+  Power:    GPIO3 + GND button, handled by the OS (dtoverlay=gpio-shutdown),
+            not by this script. Don't use GPIO3 here.
 
 On the Pi, board.D<n> means GPIO<n>.
 """
@@ -115,7 +117,7 @@ class TM1637Display:
 led = digitalio.DigitalInOut(board.D21)
 led.direction = digitalio.Direction.OUTPUT
 
-display = TM1637Display(board.D4, board.D3, length=4)   # CLK, DIO
+display = TM1637Display(board.D11, board.D9, length=4)  # CLK, DIO
 display.print("HELO")
 
 cols = [digitalio.DigitalInOut(x) for x in (board.D13, board.D5, board.D26)]             # C1, C2, C3
